@@ -7,11 +7,12 @@ export default function Header() {
   
   return (
     <div>
-      <div className="">
+      <div className="bg-red-800">
+
         <ul className="flex gap-4 bg-gray-200 font-bold p-2 text-lg ">
         
          <NavLink to="/"  className={({isActive}) =>
-                                        `block pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block pr-4 pl-3 duration-200 ${isActive ? "text-orange-700 underline" : "text-gray-700"}   `
                                     }>
          <li >home</li>
          </NavLink>   
