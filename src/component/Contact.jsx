@@ -4,7 +4,7 @@ import Header from './Header'
 export default function Contact() {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       I am the contact page
     </div>
   )

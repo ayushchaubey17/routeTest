@@ -4,7 +4,7 @@ import Header from './Header'
 export default function More() {
   return (
     <div>
-        <Header/>
+        
       I am the more page
     </div>
   )

@@ -9,7 +9,7 @@ export default function Home({}) {
 
       </div>
 
-      <Header />
+      
        I am the home page
     </div>
   )
