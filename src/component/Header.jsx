@@ -12,22 +12,22 @@ export default function Header() {
         <ul className="flex gap-4 bg-gray-200 font-bold p-2 text-lg ">
         
          <NavLink to="/"  className={({isActive}) =>
-                                        `block pr-4 pl-3 duration-200 ${isActive ? "text-orange-700 underline" : "text-gray-700"}   `
+                                        `block  duration-200 ${isActive ? "text-orange-700 underline" : "text-gray-700"}   `
                                     }>
-         <li >home</li>
+         <li >Home</li>
          </NavLink>   
 
 
 <NavLink className={({isActive})=>{
   return `${isActive?a:b}`
-}} to="/about">  <li className="list2">about</li> </NavLink>
+}} to="/about">  <li className="list2">About</li> </NavLink>
 <NavLink className={({isActive})=>{
   return`${isActive?a:b}`
-}} to="/contact"> <li className="list3">contact</li></NavLink>
+}} to="/contact"> <li className="list3">Contact</li></NavLink>
 
 <NavLink className={({isActive})=>{
   return `${isActive?a:b}`
-}} to="/more"><li className="list4">more</li> </NavLink>
+}} to="/more"><li className="list4">More</li> </NavLink>
           
             
             
